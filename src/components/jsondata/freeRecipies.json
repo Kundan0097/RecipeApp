@@ -1,0 +1,357 @@
+[
+  {
+    "id": 51,
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      "Flour",
+      "Butter",
+      "Sugar",
+      "Eggs",
+      "Chocolate chips",
+      "Vanilla extract",
+      "Baking soda",
+      "Salt"
+    ],
+    "instructions": [
+      "Cream butter and sugar. Add eggs and vanilla.",
+      "Mix in dry ingredients and chocolate chips.",
+      "Scoop onto tray and bake at 350\u00b0F for 10-12 mins."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 12,
+    "servings": 24,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 150,
+    "tags": [
+      "Dessert",
+      "Cookies"
+    ],
+    "userId": 166,
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.9,
+    "reviewCount": 300,
+    "mealType": [
+      "Dessert"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Spaghetti Carbonara",
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Parmesan cheese",
+      "Pancetta",
+      "Black pepper",
+      "Salt"
+    ],
+    "instructions": [
+      "Cook spaghetti until al dente.",
+      "Fry pancetta until crispy.",
+      "Whisk eggs and Parmesan together.",
+      "Combine hot pasta with egg mixture and pancetta.",
+      "Season with salt and pepper. Serve immediately."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Italian",
+    "caloriesPerServing": 450,
+    "tags": [
+      "Pasta",
+      "Italian"
+    ],
+    "userId": 166,
+    "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.7,
+    "reviewCount": 128,
+    "mealType": [
+      "Dinner"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Chicken Tikka Masala",
+    "ingredients": [
+      "Chicken breast",
+      "Yogurt",
+      "Tomato puree",
+      "Garlic",
+      "Garam masala",
+      "Cream",
+      "Cumin",
+      "Salt"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and spices.",
+      "Grill or pan-fry chicken pieces.",
+      "Simmer tomato puree with spices and cream.",
+      "Add chicken and cook for 10 minutes.",
+      "Serve with rice or naan."
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "difficulty": "Medium",
+    "cuisine": "Indian",
+    "caloriesPerServing": 520,
+    "tags": [
+      "Chicken",
+      "Indian"
+    ],
+    "userId": 166,
+    "image": "https://plus.unsplash.com/premium_photo-1692835633672-50919fdffb75?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.8,
+    "reviewCount": 203,
+    "mealType": [
+      "Dinner"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Beef Tacos",
+    "ingredients": [
+      "Ground beef",
+      "Taco shells",
+      "Cheddar cheese",
+      "Lettuce",
+      "Tomato",
+      "Onion",
+      "Taco seasoning"
+    ],
+    "instructions": [
+      "Cook beef with taco seasoning.",
+      "Fill taco shells with beef and toppings.",
+      "Serve with salsa or sour cream."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine": "Mexican",
+    "caloriesPerServing": 400,
+    "tags": [
+      "Tacos",
+      "Mexican"
+    ],
+    "userId": 166,
+    "image": "https://plus.unsplash.com/premium_photo-1661776649804-6bfa4fc14d09?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.5,
+    "reviewCount": 110,
+    "mealType": [
+      "Dinner"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Vegan Buddha Bowl",
+    "ingredients": [
+      "Quinoa",
+      "Chickpeas",
+      "Sweet potato",
+      "Avocado",
+      "Spinach",
+      "Tahini sauce"
+    ],
+    "instructions": [
+      "Cook quinoa and roast sweet potatoes.",
+      "Assemble all ingredients in a bowl.",
+      "Drizzle with tahini sauce and serve."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "Fusion",
+    "caloriesPerServing": 350,
+    "tags": [
+      "Vegan",
+      "Healthy"
+    ],
+    "userId": 166,
+    "image": "https://plus.unsplash.com/premium_photo-1664648005776-d357bc76d2db?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.6,
+    "reviewCount": 87,
+    "mealType": [
+      "Lunch",
+      "Dinner"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "French Omelette",
+    "ingredients": [
+      "Eggs",
+      "Butter",
+      "Chives",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Beat eggs with salt and pepper.",
+      "Cook gently in butter until just set.",
+      "Fold and serve with chives on top."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 5,
+    "servings": 1,
+    "difficulty": "Easy",
+    "cuisine": "French",
+    "caloriesPerServing": 200,
+    "tags": [
+      "Eggs",
+      "Breakfast"
+    ],
+    "userId": 166,
+    "image": "https://images.unsplash.com/photo-1598683387379-5bc77d0bc4c0?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.4,
+    "reviewCount": 60,
+    "mealType": [
+      "Breakfast"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Sushi Rolls",
+    "ingredients": [
+      "Sushi rice",
+      "Nori sheets",
+      "Cucumber",
+      "Avocado",
+      "Crab stick",
+      "Soy sauce"
+    ],
+    "instructions": [
+      "Cook and season sushi rice.",
+      "Lay rice on nori sheet, add fillings.",
+      "Roll tightly and slice.",
+      "Serve with soy sauce."
+    ],
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "difficulty": "Hard",
+    "cuisine": "Japanese",
+    "caloriesPerServing": 300,
+    "tags": [
+      "Sushi",
+      "Japanese"
+    ],
+    "userId": 166,
+    "image": "https://images.unsplash.com/photo-1636425730695-febe95eda12e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.7,
+    "reviewCount": 140,
+    "mealType": [
+      "Lunch",
+      "Dinner"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Greek Salad",
+    "ingredients": [
+      "Tomatoes",
+      "Cucumber",
+      "Red onion",
+      "Feta cheese",
+      "Olives",
+      "Olive oil",
+      "Oregano"
+    ],
+    "instructions": [
+      "Chop vegetables and mix in a bowl.",
+      "Add feta and olives.",
+      "Drizzle with olive oil and sprinkle oregano."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "Greek",
+    "caloriesPerServing": 250,
+    "tags": [
+      "Salad",
+      "Healthy"
+    ],
+    "userId": 166,
+    "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.5,
+    "reviewCount": 95,
+    "mealType": [
+      "Lunch"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Pad Thai",
+    "ingredients": [
+      "Rice noodles",
+      "Shrimp or tofu",
+      "Eggs",
+      "Bean sprouts",
+      "Peanuts",
+      "Tamarind paste",
+      "Fish sauce",
+      "Garlic"
+    ],
+    "instructions": [
+      "Soak noodles. Stir-fry garlic and protein.",
+      "Add noodles, sauce, and egg.",
+      "Toss in sprouts and top with peanuts."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "difficulty": "Medium",
+    "cuisine": "Thai",
+    "caloriesPerServing": 450,
+    "tags": [
+      "Thai",
+      "Noodles"
+    ],
+    "userId": 166,
+    "image": "https://images.unsplash.com/photo-1707546944460-dda9069b9c1e?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.6,
+    "reviewCount": 120,
+    "mealType": [
+      "Dinner"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Avocado Toast",
+    "ingredients": [
+      "Bread slices",
+      "Ripe avocado",
+      "Lemon juice",
+      "Salt",
+      "Chili flakes"
+    ],
+    "instructions": [
+      "Toast bread.",
+      "Mash avocado with lemon juice and salt.",
+      "Spread on toast and sprinkle chili flakes."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 5,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine": "American",
+    "caloriesPerServing": 220,
+    "tags": [
+      "Toast",
+      "Vegan"
+    ],
+    "userId": 166,
+    "image": "https://images.unsplash.com/photo-1632217471220-a661da2ae319?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.3,
+    "reviewCount": 80,
+    "mealType": [
+      "Breakfast",
+      "Snack"
+    ]
+  }
+ 
+]

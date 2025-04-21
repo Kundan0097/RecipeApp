@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Italian Pasta",
+    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80",
+    "count": "120 Recipes"
+  },
+  {
+    "id": 2,
+    "name": "Asian Wok",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+    "count": "95 Recipes"
+  },
+  {
+    "id": 3,
+    "name": "Healthy Bowls",
+    "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=800&q=80",
+    "count": "78 Recipes"
+  },
+  {
+    "id": 4,
+    "name": "BBQ & Grill",
+    "image": "https://images.unsplash.com/photo-1718267052366-f8994de82edf?w=800&auto=format&fit=crop&q=80&ixlib=rb-4.0.3",
+    "count": "64 Recipes"
+  },
+  {
+    "id": 5,
+    "name": "Vegan Delights",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+    "count": "112 Recipes"
+  },
+  {
+    "id": 6,
+    "name": "Dessert Heaven",
+    "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+    "count": "89 Recipes"
+  },
+  {
+    "id": 7,
+    "name": "Breakfast Faves",
+    "image": "https://images.unsplash.com/photo-1514996937319-344454492b37?w=800&q=80",
+    "count": "56 Recipes"
+  },
+  {
+    "id": 8,
+    "name": "Quick Meals",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+    "count": "210 Recipes"
+  }
+]
