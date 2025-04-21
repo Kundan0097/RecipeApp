@@ -45,7 +45,7 @@ const BookmarksPage = () => {
     <div className="min-h-screen p-4">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-3xl font-bold">Bookmarks</h1>
-        <button onClick={clearBookmarks} fdprocessedid="41p22p" className="text-sm text-white bg-red-500 px-3 py-2 rounded-md font-semibold">Clear All Bookmarks</button>
+        <button onClick={clearBookmarks}  className="text-sm text-white bg-red-500 px-3 py-2 rounded-md font-semibold">Clear All Bookmarks</button>
       </div>
       {/* <h1 className="text-3xl font-bold text-center">Your Bookmarked Recipes</h1> */}
 
