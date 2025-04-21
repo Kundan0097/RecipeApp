@@ -7,6 +7,17 @@ import { useEffect, useState } from "react";
 import { useAuth } from "../firebase/AuthContext";
 
 const BookmarksPage = () => {
+
+  type RecipeType= {
+    id:number;
+    name:string;
+    image:string;
+    rating:number;
+    reviewCount:number;
+    tags:string[];
+    mealType:string;
+  }
+
   const { bookmarks ,recipes ,deleteBookmark , clearBookmarks, setBookmarks } = useBookmark();
     const [bookmarkedRecipes, setBookmarkedRecipes] = useState<RecipeType[]>([]);
     console.log("bookmarks in bookmark page", bookmarks)
