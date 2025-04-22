@@ -15,7 +15,11 @@ const ForgotPassword = () => {
       });
       setMessage("Password reset email sent. Check your inbox.");
     } catch (error) {
-      setMessage(error.message);
+      if (error instanceof Error) {
+        setMessage(error.message);
+      } else {
+        setMessage("An unknown error occurred.");
+      }
     }
   };
 
