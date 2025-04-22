@@ -13,7 +13,7 @@ type RecipeType= {
   rating:number;
   reviewCount:number;
   tags:string[];
-  mealType:string;
+  mealType:string[];
 }
 
 

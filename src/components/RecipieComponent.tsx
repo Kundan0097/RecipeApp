@@ -10,17 +10,21 @@ import Shimmer from "./shimmer/Shimmer";
 // import FreeRecipies from "./FreeRecipies";
 
 interface Recipe {
-  id: string;
-  name: string;
-  image: string;
-  rating: number;
-  reviewCount: number;
-  isPremium: boolean;
-  tags: string[];
-  mealType: string[];
+  id:number;
+  name:string;
+  image:string;
+  rating:number;
+  reviewCount:number;
+  tags:string[];
+  mealType:string[];
+  isPremium?: boolean;
 }
 
-const RecipeComponent = ({ updatedRecipes }: { updatedRecipes: Recipe[] }) => {
+interface Props {
+  updatedRecipes: Recipe[];
+}
+
+const RecipeComponent:React.FC<Props> = ({ updatedRecipes }) => {
   const [recipiesNew, setRecipiesNew] = useState<Recipe[]>([])
   const { toggleBookmark, setRecipies } = useBookmark()
   const router = useRouter()
@@ -43,11 +47,13 @@ const RecipeComponent = ({ updatedRecipes }: { updatedRecipes: Recipe[] }) => {
         }));
         setRecipiesNew(modifiedRecipes);
         setRecipies?.(modifiedRecipes);
-      } else {
-        setRecipiesNew(updatedRecipes);
-        setRecipies?.(updatedRecipes);
+      }else{
+        // Filter out premium recipes if user is not subscribed
+        // modifiedRecipes = updatedRecipes.filter((recipe) => !recipe.isPremium);
+        setRecipiesNew(modifiedRecipes);
+        setRecipies?.(modifiedRecipes);
       }
-
+        
       if (!user) {
         setRecipiesNew(modifiedRecipes);
         setRecipies?.(modifiedRecipes);
@@ -59,6 +65,8 @@ const RecipeComponent = ({ updatedRecipes }: { updatedRecipes: Recipe[] }) => {
       setLoading(false)
     }
   }, [updatedRecipes, isSubscribed, setRecipies, user]);
+
+  
 
   console.log("isSubscribed", isSubscribed)
 
