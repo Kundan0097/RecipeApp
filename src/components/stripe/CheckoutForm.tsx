@@ -103,7 +103,6 @@ export default function CheckoutForm() {
                   value={plan}
                   onChange={(e) => setPlan(e.target.value)}
                   className="w-full border rounded px-3 py-2 text-black"
-                  fdprocessedid="183mhx"
                >
                   <option value="monthly">Monthly - $10</option>
                   <option value="yearly">Yearly - $100</option>

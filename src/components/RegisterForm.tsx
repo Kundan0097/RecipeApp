@@ -73,7 +73,7 @@ const RegisterForm = () => {
                 placeholder="Enter your full name"
                 value={fullName}
                 onChange={(e)=>setFullName(e.target.value)}
-                fdprocessedid="f3fkbq"
+                // fdprocessedid="f3fkbq"
               />
             </div>
           </div>
@@ -97,7 +97,7 @@ const RegisterForm = () => {
                 placeholder="Enter your email"
                 value={email}
                 onChange={(e)=>setEmail(e.target.value)}
-                fdprocessedid="1li0zi"
+                // fdprocessedid="1li0zi"
               />
             </div>
           </div>
@@ -120,7 +120,7 @@ const RegisterForm = () => {
                 placeholder="Create a password"
                 value={password}
                 onChange={(e)=>setPassword(e.target.value)}
-                fdprocessedid="ubdo1"
+                // fdprocessedid="ubdo1"
               />
             </div>
           </div>
@@ -130,7 +130,7 @@ const RegisterForm = () => {
             <button
               type="submit"
               className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-              fdprocessedid="yytid"
+              // fdprocessedid="yytid"
             >
               { loading ? <MiniLoader/> :"Create Account"}
             </button>

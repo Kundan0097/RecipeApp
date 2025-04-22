@@ -31,11 +31,11 @@ export default function ProfilePage() {
              <p className="text-gray-500">{user?.email}</p>
            </div>
          </div>
-        {isSubscribed ? <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-semibold" fdprocessedid="rdqq4b" >
+        {isSubscribed ? <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-semibold"  >
            Subscribed
          </button> :
           <Link href="/checkout">
-        <button className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-lg font-semibold cursor-pointer" fdprocessedid="rdqq4b" >
+        <button className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-lg font-semibold cursor-pointer"  >
            Upgrade to Premium
          </button>
         </Link>}

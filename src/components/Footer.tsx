@@ -84,13 +84,11 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Your email"
-                fdprocessedid="41sd9"
                 className="w-full rounded-l-lg bg-gray-700 px-4 py-3 text-white focus:outline-none"
                 required
               />
               <button
                 type="submit"
-                fdprocessedid="4ymn71h"
                 className="rounded-r-lg bg-amber-600 px-4 py-3 font-medium transition hover:bg-amber-700"
               >
                 Join

@@ -3,6 +3,13 @@ import RecipeComponent from "@/components/RecipieComponent";
 
 const RecipePage = async () => {
   const recipieApi = process.env.NEXT_PUBLIC_RECIPIE_API;
+  type Recipe = {
+    id: number;
+    title: string;
+    image: string;
+    [key: string]: unknown; // in case there are unknown props
+  };
+  
   
   if (!recipieApi) {
     throw new Error("API URL is not defined");
@@ -13,7 +20,7 @@ const RecipePage = async () => {
 
   const recipes = Array.isArray(data.recipes) ? data.recipes : []; // Ensure it's an array
 
-  const updatedRecipes = recipes.map((recipe) => ({
+  const updatedRecipes = recipes.map((recipe: Recipe) => ({
     ...recipe,
     isPremium: recipe.id > 10,
   }));

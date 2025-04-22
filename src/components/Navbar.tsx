@@ -17,7 +17,7 @@ export default function Navbar() {
 
     useEffect(()=>{
       refreshUserData()
-    },[])
+    },[refreshUserData])
   
 
   // console.log("isAdmin in navbar", isAdmin)

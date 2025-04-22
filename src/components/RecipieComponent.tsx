@@ -102,7 +102,7 @@ const RecipeComponent = ({ updatedRecipes }: { updatedRecipes: Recipe[] }) => {
                     {
                         isSubscribed  ? <button
                           className="p-2 rounded-full cursor-pointer text bg-background text-foreground"
-                          onClick={() => toggleBookmark(id)}>
+                          onClick={() => toggleBookmark(Number(id))}>
                           <FaBookmark className="w-6 h-6" />
                         </button> : ""
                       }

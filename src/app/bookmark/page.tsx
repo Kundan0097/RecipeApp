@@ -32,14 +32,20 @@ const BookmarksPage = () => {
     // console.log("bookmarked recipes", recipieData); 
 
     
-    if(!user){
-    if (setBookmarks) {
-      setBookmarks([]);
-    }
-  }
-  },[recipes])
+  
+  },[recipes, bookmarks])
 
+  useEffect(()=>{
+    if(!user){
+      if (setBookmarks) {
+        setBookmarks([]);
+      }
+    }
+  },[user,setBookmarks])
  
+  // useEffect(()=>{
+
+  // },[])
 
   return (
     <div className="min-h-screen p-4">
