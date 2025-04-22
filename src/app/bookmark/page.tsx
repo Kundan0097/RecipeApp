@@ -15,7 +15,7 @@ const BookmarksPage = () => {
     rating:number;
     reviewCount:number;
     tags:string[];
-    mealType:string;
+    mealType:string[];
   }
 
   const { bookmarks ,recipes ,deleteBookmark , clearBookmarks, setBookmarks } = useBookmark();
