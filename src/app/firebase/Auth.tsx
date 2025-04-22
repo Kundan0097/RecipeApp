@@ -11,7 +11,7 @@ export const signInWithGoogle = async() =>{
   try{
       const result = await signInWithPopup(auth , googleProvider)
       const user = result.user
-      console.log("User Info :" , result.user)
+      // console.log("User Info :" , result.user)
       localStorage.setItem("userInfo" , JSON.stringify(result.user) )
 
           // const database =  await addDoc(collection(db, "user"), {
@@ -47,7 +47,7 @@ export const signInWithGoogle = async() =>{
 export const signInWithFacebook = async() =>{
   try{
       const result = await signInWithPopup(auth , facebookProvider)
-      console.log("User Info :" , result.user)
+      // console.log("User Info :" , result.user)
       localStorage.setItem("userInfo" , JSON.stringify(result.user) )
       const user = result.user
       
@@ -71,7 +71,7 @@ export const signInWithFacebook = async() =>{
           role: "user",
           createdAt: new Date(),
         });
-        console.log(database);
+        // console.log(database);
       }  
       // router.push('/')
   }catch(error){

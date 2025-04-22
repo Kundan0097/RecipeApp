@@ -68,7 +68,7 @@ const RecipeComponent:React.FC<Props> = ({ updatedRecipes }) => {
 
   
 
-  console.log("isSubscribed", isSubscribed)
+  // console.log("isSubscribed", isSubscribed)
 
   
 

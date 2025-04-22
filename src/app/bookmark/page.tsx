@@ -20,7 +20,7 @@ const BookmarksPage = () => {
 
   const { bookmarks ,recipes ,deleteBookmark , clearBookmarks, setBookmarks } = useBookmark();
     const [bookmarkedRecipes, setBookmarkedRecipes] = useState<RecipeType[]>([]);
-    console.log("bookmarks in bookmark page", bookmarks)
+    // console.log("bookmarks in bookmark page", bookmarks)
     // console.log("recipes in bookmark page", recipes)
     const {user} = useAuth()
   

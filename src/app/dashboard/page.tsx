@@ -25,7 +25,7 @@ export default function AdminDashboard() {
   const [users, setUsers] = useState<UserData[]>([]);
   
 
-  console.log("all users", users)
+  // console.log("all users", users)
   useEffect(() => {
   
     if(!isAdmin){
@@ -37,7 +37,7 @@ export default function AdminDashboard() {
     const fetchData = async () => {
       const userList = await getAllUsers();
       setUsers(userList);
-      console.log("all users in admin dashboard", userList);
+      // console.log("all users in admin dashboard", userList);
     };
 
     fetchData();

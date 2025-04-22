@@ -8,7 +8,7 @@ export default function HuggingFaceChat() {
   const [prompt, setPrompt] = useState('')
   const [response, setResponse] = useState('')
 //   console.log('prompt', prompt)
-  console.log('response', response)
+  // console.log('response', response)
 
 const {isSubscribed , user} = useAuth()
 
