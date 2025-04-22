@@ -147,7 +147,7 @@ const RecipeComponent:React.FC<Props> = ({ updatedRecipes }) => {
                   </button>
                 </Link> : <button
                   onClick={onSubscribe}
-                  className="mt-3 bg-red-500 text-white px-4 py-2 rounded-md"
+                  className="mt-3 bg-red-500 text-white px-4 py-2 rounded-md cursor-pointer"
                 >
                   🔒 Subscribe to Unlock
                 </button>
