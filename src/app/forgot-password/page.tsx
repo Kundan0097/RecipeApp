@@ -35,10 +35,10 @@ const ForgotPassword = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          fdprocessedid="ffzwns"
+          // fdprocessedid="ffzwns"
         />
         <button type="submit"
-                fdprocessedid="1lafnc"
+                // fdprocessedid="1lafnc"
                 className="bg-blue-500 text-white rounded-md px-4 py-2 hover:bg-blue-600 transition duration-200 ease-in-out">
             Reset Password</button>
       </form>
