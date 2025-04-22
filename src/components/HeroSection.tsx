@@ -43,7 +43,7 @@ const HeroSection = () => {
               placeholder="Search 15,000+ recipes (Try 'Chicken Alfredo' or 'Vegan Desserts')..."
               className="w-full rounded-full border-2 border-amber-400/30 bg-white/90 px-6 py-4 text-gray-800 shadow-lg backdrop-blur-sm placeholder-gray-500 focus:border-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-300/50"
             />
-            <button className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-amber-500 px-6 py-2 font-medium text-white transition-all hover:bg-amber-600 hover:shadow-md " fdprocessedid="g0y4ut">
+            <button className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-amber-500 px-6 py-2 font-medium text-white transition-all hover:bg-amber-600 hover:shadow-md " >
               {t.search}
             </button>
           </div>
