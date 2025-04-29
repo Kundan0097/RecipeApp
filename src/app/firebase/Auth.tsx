@@ -64,7 +64,7 @@ export const signInWithFacebook = async() =>{
 
       if (querySnapshot.empty) {
         // 🆕 User does not exist, so add to Firestore
-        const database = await addDoc(usersRef, {
+         await addDoc(usersRef, {
           displayName: user.displayName,
           uid: user.uid,
           email: user.email,
