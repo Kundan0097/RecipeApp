@@ -101,9 +101,11 @@ export default function Navbar() {
         </Link>
       )}
 
-      <ThemeToggle />
-      <LanguageSwitcher />
     </div>
+   <div className='flex items-center gap-4 mt-4 md:mt-0'>
+   <ThemeToggle />
+   <LanguageSwitcher />
+   </div>
   </div>
 </nav>
 

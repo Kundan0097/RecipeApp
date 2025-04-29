@@ -94,38 +94,40 @@ export default function CheckoutForm() {
 
    return user ? (
 
-      <div className='flex flex-col items-center justify-center h-screen'>
-         <h1 className="text-3xl font-bold mb-4">Subscribe to our Plan</h1>
-         <form onSubmit={handleSubmit} className="max-w-lg p-4 space-y-4  rounded min-h-96 flex flex-col justify-around bg-white shadow-lg">
-            <div className="space-y-1">
-               <label className="font-medium block text-black">Choose a Plan</label>
-               <select
-                  value={plan}
-                  onChange={(e) => setPlan(e.target.value)}
-                  className="w-full border rounded px-3 py-2 text-black"
-               >
-                  <option value="monthly">Monthly - $10</option>
-                  <option value="yearly">Yearly - $100</option>
-               </select>
-            </div>
+      <div className="flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8">
+  <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Subscribe to our Plan</h1>
+  <form
+    onSubmit={handleSubmit}
+    className="w-full max-w-md sm:max-w-lg p-4 sm:p-6 space-y-4 bg-white rounded-lg shadow-lg"
+  >
+    <div className="space-y-1">
+      <label className="font-medium block text-black">Choose a Plan</label>
+      <select
+        value={plan}
+        onChange={(e) => setPlan(e.target.value)}
+        className="w-full border rounded px-3 py-2 text-black"
+      >
+        <option value="monthly">Monthly - $10</option>
+        <option value="yearly">Yearly - $100</option>
+      </select>
+    </div>
 
-            <div className='flex flex-col gap-4 text-black'>
-            <div className='p-4 border rounded bg-white shadow'>
-               <h3 className="text-lg font-semibold mb-3">Payment Details</h3>
-               <CardElement options={{ hidePostalCode: true }} />
-            </div>
-            <button
-               type="submit"
-               disabled={!stripe || loading}
-               className="bg-blue-600 text-white px-4 w-md py-2 rounded"
-            >
-               {loading ? 'Processing...' : 'Subscribe'}
-            </button>
-            {message && <p className="text-red-500">{message}</p>}
-            </div>
-         </form>
-
-      </div> 
+    <div className="flex flex-col gap-4 text-black">
+      <div className="p-4 border rounded bg-white shadow">
+        <h3 className="text-lg font-semibold mb-3">Payment Details</h3>
+        <CardElement options={{ hidePostalCode: true }} />
+      </div>
+      <button
+        type="submit"
+        disabled={!stripe || loading}
+        className="bg-blue-600 text-white px-4 py-2 rounded w-full"
+      >
+        {loading ? 'Processing...' : 'Subscribe'}
+      </button>
+      {message && <p className="text-red-500">{message}</p>}
+    </div>
+  </form>
+</div>
 
    ) : (  <div className='min-h-screen flex flex-col items-center justify-center gap-3 bg-background text-foreground'>
            <h1>Please Login to Continue</h1>
