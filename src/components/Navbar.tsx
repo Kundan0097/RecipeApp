@@ -77,7 +77,7 @@ export default function Navbar() {
     
 
     {/* Right-side Icons & Actions */}
-    <div className="flex items-center gap-4 mt-4 md:mt-0">
+    <div className="flex items-center gap-2 mt-4 md:mt-0">
      {isAdmin ? "" : <>
       <FaSearch className="text-xl hover:text-green-500 cursor-pointer" />
       <Link href="/bookmark">
@@ -102,7 +102,7 @@ export default function Navbar() {
       )}
 
     </div>
-   <div className='flex items-center gap-4 mt-4 md:mt-0'>
+   <div className='flex items-center gap-2 mt-4 md:mt-0 justify-center'>
    <ThemeToggle />
    <LanguageSwitcher />
    </div>
