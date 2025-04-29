@@ -76,8 +76,8 @@ const {isSubscribed , user} = useAuth()
 </div>
   ) :(
     <div className='min-h-120 flex flex-col items-center justify-center gap-3 bg-background text-foreground'>
-      <h1 className='text-2xl'>You are not subscribed to this recipe assistant.</h1>
-      <p className='text-xl'>Please subscribe to use this feature.</p>
+      <h1 className='text-2xl text-center'>You are not subscribed to this recipe assistant.</h1>
+      <p className='text-xl text-center'>Please subscribe to use this feature.</p>
       {
         user ? (
           <Link href='/checkout' className='bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'>
