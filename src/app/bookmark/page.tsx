@@ -51,7 +51,7 @@ const BookmarksPage = () => {
     <div className="min-h-screen p-4">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-3xl font-bold">Bookmarks</h1>
-        <button onClick={clearBookmarks}  className="text-sm text-white bg-red-500 px-3 py-2 rounded-md font-semibold">Clear All Bookmarks</button>
+        <button onClick={clearBookmarks}  className="text-sm text-white bg-red-500 px-3 py-1 rounded-md font-semibold">Clear Bookmarks</button>
       </div>
       {/* <h1 className="text-3xl font-bold text-center">Your Bookmarked Recipes</h1> */}
 
@@ -75,11 +75,13 @@ const BookmarksPage = () => {
                 <FaStar className="text-yellow-500" />
                 <span className="ml-1">{rating} ({reviewCount} reviews)</span>
               </div>
-              <Link href={`/recipies/${id}`}>
+             <div className="flex gap-3">
+             <Link href={`/recipies/${id}`}>
                 <button className="mt-3 text-sm text-blue-600 font-semibold cursor-pointer">View Details</button>
               </Link>
 
               <button onClick={()=>deleteBookmark(id)} className="mt-3 cursor-pointer text-sm text-red-600 font-semibold">Delete Bookmark</button>
+             </div>
             </div>
           ))}
         </div>

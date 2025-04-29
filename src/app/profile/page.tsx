@@ -17,30 +17,6 @@ export default function ProfilePage() {
 
   return (
     <div className="max-w-4xl mx-auto p-6 space-y-6 bg-background text-foreground min-h-screen">
-      {/* Profile Header */}
-      {/* <div className="flex items-center justify-between  shadow-lg p-4 rounded-2xl">
-         <div className="flex items-center space-x-4">
-           <Image
-               src={userLogo}
-               width={100}
-               height={100}
-               alt="User Logo"
-           />
-           <div>
-             <h2 className="text-xl font-semibold">{user?.displayName}</h2>
-             <p className="text-gray-500">{user?.email}</p>
-           </div>
-         </div>
-        {isSubscribed ? <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-semibold"  >
-           Subscribed
-         </button> :
-          <Link href="/checkout">
-        <button className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-lg font-semibold cursor-pointer"  >
-           Upgrade to Premium
-         </button>
-        </Link>}
-       </div> */}
-
       <div className="flex flex-col sm:flex-row items-center justify-between shadow-lg p-4 rounded-2xl gap-4">
         <div className="flex items-center space-x-4">
           <Image
