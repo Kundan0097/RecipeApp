@@ -1,7 +1,7 @@
 "use client"
 
 import Image from 'next/image';
-import { FaSearch, FaBookmark, FaUser } from 'react-icons/fa';
+import { FaBookmark, FaUser } from 'react-icons/fa';
 import logo from "@/images/recipie-logo.jpg"
 import { useAuth } from '@/app/firebase/AuthContext';
 import Link from 'next/link';
