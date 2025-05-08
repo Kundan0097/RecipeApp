@@ -44,7 +44,7 @@ export default function Navbar() {
       {/* <span className="text-xl font-semibold hidden sm:inline">Recipe World</span> */}
 
       {/* Nav Links */}
-    <ul className="flex flex-wrap md:flex-nowrap justify-center gap-4 mt-4 md:mt-0 font-serif text-base">
+    <ul className="flex flex-wrap  justify-center gap-4 mt-4 md:mt-0 font-serif text-base">
       {isAdmin ? (
         <li className="hover:text-green-500 transition-colors duration-200">
           <Link href="/dashboard">Dashboard</Link>
@@ -76,10 +76,12 @@ export default function Navbar() {
 
     
 
-    {/* Right-side Icons & Actions */}
-    <div className="flex items-center gap-2 mt-4 md:mt-0">
+   
+   <div className='flex items-center gap-2 mt-4 md:mt-0 justify-center'>
+     {/* Right-side Icons & Actions */}
+     <div className="flex items-center gap-2">
      {isAdmin ? "" : <>
-      <FaSearch className="text-xl hover:text-green-500 cursor-pointer" />
+      {/* <FaSearch className="text-xl hover:text-green-500 cursor-pointer" /> */}
       <Link href="/bookmark">
         <FaBookmark className="text-xl hover:text-green-500 cursor-pointer" />
       </Link>
@@ -102,7 +104,6 @@ export default function Navbar() {
       )}
 
     </div>
-   <div className='flex items-center gap-2 mt-4 md:mt-0 justify-center'>
    <ThemeToggle />
    <LanguageSwitcher />
    </div>

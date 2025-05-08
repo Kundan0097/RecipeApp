@@ -164,6 +164,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
               displayName:fullName,
             })
 
+            // console.log("response" ,response)
+
           const database =  await addDoc(collection(db , "users"),{
                 uid:user.uid,
                 email:user.email,
